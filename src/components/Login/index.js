@@ -94,7 +94,7 @@ class Login extends Component {
                     type="text"
                     value={username}
                     onChange={this.onChangeUsername}
-                    placeholder="Username"
+                    placeholder="Username is rahul"
                   />
                 </InputFieldContainer>
                 <InputFieldContainer>
@@ -106,7 +106,7 @@ class Login extends Component {
                     type={showPassword ? 'text' : 'password'}
                     value={password}
                     onChange={this.onChangePassword}
-                    placeholder="Password"
+                    placeholder="Password is rahul@2021"
                   />
                 </InputFieldContainer>
                 <CheckBoxContainer>
